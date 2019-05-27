@@ -1,4 +1,4 @@
-这个目录是有用的资源和目录
+# 这个目录是有用的资源和目录
 ## 01.有用的参考资源
 
 1. 在Git中进行文本，Markdown 语言的基本语法<https://www.cnblogs.com/yabin/p/6366151.html/>
