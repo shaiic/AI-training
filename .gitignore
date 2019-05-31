@@ -1,0 +1,13 @@
+*.log
+*.DS_Store
+*.pyc
+*.mo
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+*.tmp*
+.ipynb_checkpoints
+
+5.Technical_Salon/lesson1/*.html
+5.Technical_Salon/*.rar
