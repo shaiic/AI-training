@@ -1,0 +1,11 @@
+*.log
+*.DS_Store
+*.pyc
+*.mo
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+*.tmp*
+.ipynb_checkpoints
+
