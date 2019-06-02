@@ -1,9 +1,5 @@
 # Git的使用技巧及总结
 
-> 高冲 2019年5月28日
->
-> 主要参考作者撰写的博客：[Git使用总结](http://blog.a-stack.com/2017/02/02/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Pro-Git/)
-
 ## 写在前面
 
 ​	本篇总结内容主要整理自《Pro Git》，该书由GitHub员工Scott Chacon和另一位爱好者Ben Straub共同编写，主要介绍了Git使用基础和原理，适合Git爱好者和初学者参考。
