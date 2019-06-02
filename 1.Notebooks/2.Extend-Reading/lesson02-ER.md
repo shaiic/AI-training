@@ -29,7 +29,7 @@
 - [概率](<http://open.163.com/special/Khan/probability.html>)
 - [统计学](<http://open.163.com/special/Khan/khstatistics.html>)
 
-### 书籍推荐：[机器学习中的数学]()
+### 书籍推荐：[机器学习中的数学](https://mml-book.github.io/)
 
 ```
 
