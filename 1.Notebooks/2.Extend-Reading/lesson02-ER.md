@@ -3,15 +3,15 @@
 
 
 ### 各种常用Python库的总结
- [1.Jupyter_Notebook_Cheat_Sheet.pdf](lesson02\1.Jupyter_Notebook_Cheat_Sheet.pdf) 
+ [1.Jupyter_Notebook_Cheat_Sheet.pdf](lesson02/1.Jupyter_Notebook_Cheat_Sheet.pdf) 
 
-[2.Numpy_Python_Cheat_Sheet.pdf](lesson02\2.Numpy_Python_Cheat_Sheet.pdf) 
+[2.Numpy_Python_Cheat_Sheet.pdf](lesson02/2.Numpy_Python_Cheat_Sheet.pdf) 
 
- [3.Matplotlib_Cheat_Sheet_Plotting_in_Python.pdf](lesson02\3.Matplotlib_Cheat_Sheet_Plotting_in_Python.pdf) 
+ [3.Matplotlib_Cheat_Sheet_Plotting_in_Python.pdf](lesson02/3.Matplotlib_Cheat_Sheet_Plotting_in_Python.pdf) 
 
-[4.Python_Pandas_Cheat_Sheet_2.pdf](lesson02\4.Python_Pandas_Cheat_Sheet_2.pdf) 
+[4.Python_Pandas_Cheat_Sheet_2.pdf](lesson02/4.Python_Pandas_Cheat_Sheet_2.pdf) 
 
-[5.SciPy - Linear Algebra.pdf](lesson02\5.SciPy-Linear_Algebra.pdf) 
+[5.SciPy - Linear Algebra.pdf](lesson02/5.SciPy-Linear_Algebra.pdf) 
 
 
 
