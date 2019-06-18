@@ -6,7 +6,7 @@
 
 #### 1.工具三剑客-Zeal 、Anaconda、Markdown
 
-作为一名不是秃头就是走向秃头的程序猿，工作学习中除了从生理上科学护发，还要从根源上学会减轻可能使自己秃头的工作量~Bartuer老师课上推荐了三个AI学习中会使用到的工具软件：[Zeal](https://zealdocs.org/) 、[Anaconda](Home - Anaconda  https://www.anaconda.com/)、[Markdown](markdown_百度百科  https://baike.baidu.com/item/markdown/3245829?fr=aladdin)（全都是免费下载使用的，点击直达下载官网），其中注意选择和自己电脑适配的版本，新旧随意。当然，也有其他同类型的工具，在这里就不做推荐。
+作为一名不是秃头就是走向秃头的程序猿，工作学习中除了从生理上科学护发，还要从根源上学会减轻可能使自己秃头的工作量~Bartuer老师课上推荐了三个AI学习中会使用到的工具软件：[Zeal](https://zealdocs.org/) 、[Anaconda](Home - Anaconda  https://www.anaconda.com/)、[Markdown](markdown_百度百科  https://baike.baidu.com/item/markdown/3245829?fr=aladdin) （全都是免费下载使用的，点击直达下载官网），其中注意选择和自己电脑适配的版本，新旧随意。当然，也有其他同类型的工具，在这里就不做推荐。
 
 *三个必备工具* 
 
