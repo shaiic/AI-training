@@ -1,0 +1,13 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - black
+  - flake8
+  - pandas
+  - sqlalchemy
+  - scikit-learn
+  - pyodbc
+  - jupyterlab
+  - matplotlib
