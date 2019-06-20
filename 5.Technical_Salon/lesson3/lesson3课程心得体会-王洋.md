@@ -70,7 +70,7 @@ print(B.I)
 直观看起来显然是因为np.matrix()的返回值.I这个属性，而np.array()的返回值却没有，我们来对比一下它们的返回值 np.array()的返回值是一个ndarray对象 np.matrix()的返回值是一个matrix对象
 
 我们来对比一下matrix和ndarray这两个对象，可以发现他们的属性确实有很多相同和不同的地方
-![二维码](/Users/dinglibin/AITraining/AI-training/5.Technical_Salon/lesson3/image/2019wangyang.jpg)
+![二维码](./image/2019wangyang.jpg)
 
 
 
@@ -337,4 +337,4 @@ print(timeit.timeit(lambda: no_loop_int_view_reduce_rule_no_mask(Znp), number=3)
 微软和仪电共同打造的微人工智能高阶人才培训第一期培训班由创新院运营，历时三个月，授课老师包括来自微软和上海仪电的多位专家，内容涵盖人工智能导论、数学基础、深度学习、应用实例等课程，以及关于强化学习、自然语言处理、计算机视觉等热门方向的专题研讨会，希望帮助学员掌握人工智能的理论与实践，培养具备前瞻视野和实践能力的创新型人才。
 
 更多信息，请关注微信公众号
-![二维码](/Users/dinglibin/AITraining/AI-training/5.Technical_Salon/lesson3/image/barcode.jpg)
+![二维码](./image/barcode.jpg)
