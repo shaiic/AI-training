@@ -7,8 +7,10 @@
 *.EGG
 *.EGG-INFO
 *.tmp*
+5.Technical_Salon/**/*.rar
+5.Technical_Salon/**/*.html
+5.Technical_Salon/**/*.pdf
 .ipynb_checkpoints
 1.Notebooks/.ipynb_checkpoints/
-5.Technical_Salon/lesson1/*.html
-5.Technical_Salon/*.rar
 Github-Forking.md
+
