@@ -52,7 +52,7 @@ Alpha-GO的崛起，让人们不能再忽视AI的力量。
 > 洪院长AI导论课，并不是简单地描绘未来AI的美妙世界，也不像《未来简史》的作者认为将来所有的东西都是大数据和算法，而从人类智能与机器智能的对比出发，发现各自的优势和劣势，在实践中将**AI和HI融合**，这种务实的态度令人敬佩。
 
 # 入学第二课：积跬步方能至千里
-醍醐灌顶明方向，积跬步方能至千里。如果说洪小文院长的第一课让我们对于AI和人类发展有了一个更为明确的方向，那周六的周海涛Bartuer老师课程就是我们万里长征的第一步。
+醍醐灌顶明方向，积跬步方能至千里。如果说洪小文院长的第一课让我们对于AI和人类发展有了一个更为明确的方向，那周六的Bartuer老师课程就是我们万里长征的第一步。
 
 ## 工欲善其事必先利其器 Docker + Python + Jupyter
 Docker 帮助大家快速部署环境，省却了大量烦人的系统配置过程。  
@@ -104,7 +104,7 @@ jupyter nbextension enable code_prettify/code_prettify
 ```python
 conda install yapf
 ```
-然后就可以看到Notebook如下图出现一个小锤头工具。点击它就能把当前cell的代码自动格式化变整齐了，也可以使用快捷键Ctrl+L（苹果下也是ctrl不是Command）。  
+然后就可以看到Notebook如下图出现一个小锤头工具。点击它就能把当前cell的代码自动格式化变整齐了，也可以使用快捷键Ctrl+L（苹果下也是ctrl不是⌘）。  
   
 
 3. **用?输出帮助提示**  
@@ -128,6 +128,8 @@ print('>>'+aa)
 > 以下内容截取自来自互联网,更多内容参见[菜鸟](https://www.runoob.com/docker/windows-docker-install.html6)
 
 **win7、win8 系统**  
+使用[脚本](https://github.com/microsoft/ai-edu/blob/master/C-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%8E%AF%E5%A2%83/mpp/docker_install.ps1)安装.
+
 win7、win8 等需要利用 docker toolbox 来安装，国内可以使用阿里云的镜像来下载[下载地址](http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/)  
 docker toolbox 是一个工具集，它主要包含以下一些内容：
 - Docker CLI 客户端，用来运行docker引擎创建镜像和容器
