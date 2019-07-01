@@ -152,8 +152,11 @@ $$损失 = \sum^m_{i=1}误差_i$$
 >著名的反向传播四大公式是：
 
 $$\delta^{L} = \nabla_{a}C \odot \sigma_{'}(Z^L) \tag{80}$$
+
 $$\delta^{l} = ((W^{l + 1})^T\delta^{l+1})\odot\sigma_{'}(Z^l) \tag{81}$$
+
 $$\frac{\partial{C}}{\partial{b_j^l}} = \delta_j^l \tag{82}$$
+
 $$\frac{\partial{C}}{\partial{w_{jk}^{l}}} = a_k^{l-1}\delta_j^l \tag{83}$$
 
 
