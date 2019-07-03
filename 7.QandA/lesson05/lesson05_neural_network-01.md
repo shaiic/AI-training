@@ -12,9 +12,9 @@ $\delta = \frac{\partial{C}}{\partial{Z}} = \frac{\partial{C}}{\partial{A}}\frac
 
 通常我们用L表示最后一层，${l}$ 表示任意一层。
 
- $$\nabla_{a}C = \frac{\partial{C}}{\partial{A}}$$表示梯度下降，即损失函数C对激活函数A的求梯度。$$\sigma_{'}(Z) = \frac{\partial{A}}{\partial{Z}}$$表示激活函数的导数。
+ $\nabla_{a}C = \frac{\partial{C}}{\partial{A}}$$表示梯度下降，即损失函数C对激活函数A的求梯度。$$\sigma_{'}(Z) = \frac{\partial{A}}{\partial{Z}}$$表示激活函数的导数。
 
-具体证明请参看教程《[反向传播四大公式推导]([https://github.com/shaiic/AI-training/blob/master/1.Notebooks/4.Lesson-Docs/lesson05-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.02-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/01.2-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E5%9B%9B%E5%A4%A7%E5%85%AC%E5%BC%8F.md](https://github.com/shaiic/AI-training/blob/master/1.Notebooks/4.Lesson-Docs/lesson05-深度学习.02-基础知识/01.2-神经网络反向传播四大公式.md))》。
+具体证明请参看教程《[反向传播四大公式推导](https://github.com/shaiic/AI-training/blob/master/1.Notebooks/4.Lesson-Docs/lesson05-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.02-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/01.2-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E5%9B%9B%E5%A4%A7%E5%85%AC%E5%BC%8F.md)》。
 
 ### Q2: 两层神经网络可以无限逼近任意连续函数。那是不是可以解决任意连续函数的解？
 
