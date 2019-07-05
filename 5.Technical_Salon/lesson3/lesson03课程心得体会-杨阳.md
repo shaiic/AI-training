@@ -16,31 +16,7 @@
 
 \begin{equation}\vec{v} = \begin{bmatrix}2 \\ 1 \end{bmatrix}\end{equation}
 
-向量就可以用图像表示为有长度有方向的箭头。通过以下代码可以将向量可视化出来。
-
-
-```python
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "last_expr"
-# %matplotlib inline
-import math
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-v = np.array([2,1])
-origin = [0], [0]
-plt.axhline()
-plt.axvline()
-plt.axis('equal')
-plt.grid()
-plt.ticklabel_format(style='sci', axis='both', scilimits=(0,0))
-plt.quiver(*origin, *v, scale=10, color='r')
-plt.show()
-```
-
-
-![png](output_2_0.png)
-
+向量就可以用图像表示为有长度有方向的箭头。
 
 需要注意的是numpy默认是弧度制，可以通过`math.degrees()`来将弧度制转化为角度制。但是对于常用的科学计算，还是用弧度制更加合理。
 
