@@ -12,7 +12,7 @@ $\delta = \frac{\partial{C}}{\partial{Z}} = \frac{\partial{C}}{\partial{A}}\frac
 
 通常我们用L表示最后一层，${l}$ 表示任意一层。
 
- $\nabla_{a}C = \frac{\partial{C}}{\partial{A}}$$表示梯度下降，即损失函数C对激活函数A的求梯度。$$\sigma_{'}(Z) = \frac{\partial{A}}{\partial{Z}}$$表示激活函数的导数。
+ $\nabla_{a}C = \frac{\partial{C}}{\partial{A}}$$表示梯度下降，即损失函数C对激活函数A的求梯度。$$\sigma_{'}(Z) = \frac{\partial{A}}{\partial{Z}}$表示激活函数的导数。
 
 具体证明请参看教程《[反向传播四大公式推导](https://github.com/shaiic/AI-training/blob/master/1.Notebooks/4.Lesson-Docs/lesson05-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.02-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/01.2-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E5%9B%9B%E5%A4%A7%E5%85%AC%E5%BC%8F.md)》。
 
@@ -24,7 +24,7 @@ $\delta = \frac{\partial{C}}{\partial{Z}} = \frac{\partial{C}}{\partial{A}}\frac
 
 ### Q3: 要求解的值超出了样本的范围怎么办?
 
-**A:** 那说明样本不够大。通常只有落在样本内的数据预测值才能比较准确。
+**A:** 那说明样本不够大。通常只有落在样本内的数据预测值才能比较准确。距离样本比较近的预测值可以做为参考，超出样本太多的预测值不好判断。
 
 ### Q4: 为什么要做归一化？
 
@@ -36,7 +36,7 @@ $\delta = \frac{\partial{C}}{\partial{Z}} = \frac{\partial{C}}{\partial{A}}\frac
 
 梯度非常大，学习率就必须非常小，因此，学习率（学习率初始值）的选择需要参考输入的范围，不如直接将数据归一化，这样学习率就不必再根据数据范围作调整。
 
-注意，最后的标签值需要做反归一化。  
+注意，最后的计算出的预测值需要做反归一化。  
 
 ### Q5: 在单个神经元中，每个输入信号的权重值，以上面的 (x1,x2,x3) 的例子来说，x1的权重可能是0.92，x2的权重可能是0.2，x3的权重可能是0.03。当然权重值相加之后可以不是1。那么单个权重值是否不能超过1？
 
