@@ -1,7 +1,7 @@
 
-# 微软-仪电人工智能高阶人才培训学习心得之一：数学基础---线性代数 概率统计
+# 微软-仪电人工智能高阶人才培训学习心得之一：201课程-数学基础---线性代数 概率统计
 
-# 作者：杨阳（上海电动工具研究所）
+# 作者：杨阳（上海仪电人工智能创新院有限公司）
 
 本周课程是关于线性代数以及概率统计内容的。线性代数与数理统计是本科基本数学内容，理解起来并不困难，难点在于如何用python库去实现。Barture老师生动活泼的课堂氛围给了我们很多启示，除了知识之外，也提供学习方法供我们参考。
 
@@ -16,31 +16,7 @@
 
 \begin{equation}\vec{v} = \begin{bmatrix}2 \\ 1 \end{bmatrix}\end{equation}
 
-向量就可以用图像表示为有长度有方向的箭头。通过以下代码可以将向量可视化出来。
-
-
-```python
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "last_expr"
-# %matplotlib inline
-import math
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-v = np.array([2,1])
-origin = [0], [0]
-plt.axhline()
-plt.axvline()
-plt.axis('equal')
-plt.grid()
-plt.ticklabel_format(style='sci', axis='both', scilimits=(0,0))
-plt.quiver(*origin, *v, scale=10, color='r')
-plt.show()
-```
-
-
-![png](output_2_0.png)
-
+向量就可以用图像表示为有长度有方向的箭头。
 
 需要注意的是numpy默认是弧度制，可以通过`math.degrees()`来将弧度制转化为角度制。但是对于常用的科学计算，还是用弧度制更加合理。
 
@@ -133,7 +109,7 @@ print(timeit.timeit(lambda: evolve(Z), number=3))             # 对百万人口�
 ```
 
     2.6929967870000837
-    
+
 
 也可以用python进行计算，经过优化如下解法
 
@@ -157,7 +133,7 @@ print(timeit.timeit(lambda: no_loop_int_view_reduce_rule_no_mask(Znp), number=3)
 ```
 
     0.035156062000169186
-    
+
 
 显然，通过numpy解法，使得计算速度提升了两个数量级。
 
@@ -196,8 +172,11 @@ NetLogo的扩展，https://github.com/NetLogo/NetLogo/wiki/Extensions
 # 关于微软-仪电人工智能创新院
 微软-仪电人工智能创新院将由微软和仪电共同运营和管理，致力于为微软和仪电在人工智能方面的联合研究活动和项目提供支持，为当地企业提供基于微软技术的人工智能研发平台服务和培训服务。
 
-# 关于培训
-微软和仪电共同打造的微人工智能高阶人才培训第一期培训班由创新院运营，历时三个月，授课老师包括来自微软和上海仪电的多位专家，内容涵盖人工智能导论、数学基础、深度学习、应用实例等课程，以及关于强化学习、自然语言处理、计算机视觉等热门方向的专题研讨会，希望帮助学员掌握人工智能的理论与实践，培养具备前瞻视野和实践能力的创新型人才。
+# 关于人工智能高阶人才培训班
+
+微软和仪电共同打造的人工智能高阶人才培训班由创新院运营，第一期历时三个月，授课老师包括来自微软和仪电的多位专家，内容涵盖人工智能导论、数学基础、深度学习、应用实例等课程，以及关于强化学习、自然语言处理、计算机视觉等热门方向的专题研讨会，希望帮助学员掌握人工智能的理论与实践，培养具备前瞻视野和实践能力的创新型人才。
+
+
 
 更多信息，请关注微信公众号
 ![二维码](./image/barcode.jpg)
