@@ -51,13 +51,13 @@
 
 3. 上传训练样本。我们先给这三类熊各找了10多张图片，在“Training Images”页面中通过上传这些图片来训练模型，上传图标的时候，需要我们对每一张图片选择对应的标签，如下图所示：
 
-   ![1561606855653](C:\Users\zhuxc\AppData\Roaming\Typora\typora-user-images\1561606855653.png)
+   ![1561606855653](.\image\1561606855653.png)
 
 4. 训练模型。把各种标签对应的训练样本图片上传完成后，点击“Train”按钮，Training Types选择Fast Training进行模型训练。
 
 5. 在线测试。模型训练完成后，就可以在线对训练好的模型进行测试了。点击“Quick Test”按钮，在弹出的页面中可以输入一张要检测的图片的URL或者本地图片后，就会给出检测结果，如下图所示：
 
-   ![1561606973286](C:\Users\zhuxc\AppData\Roaming\Typora\typora-user-images\1561606973286.png)
+   ![1561606973286](.\image\1561606973286.png)
 
 6. 导出为ONNX。在Performance页面中，点击“Export”按钮，platform选择“ONNX”，version选择“ONNX1.2”后导出bear.onnx文件。
 
@@ -108,7 +108,7 @@
 
 5. 在线测试。对于训练完成的模型，开发者可以对其进行测试。LUIS为开发者提供了交互式测试页面，只需输入测试用例，回车后系统自动会把识别结果返回，然后目测模型输出是否和预期一致。如下图所示,输入“打开客厅里的灯”回车后返回的最高得分意图是“TurnOn”，实体是“客厅灯”。开发者通过Http的get方法，就可以将开发的LUIS App接入到其他应用中。
 
-   ![1561615023920](C:\Users\zhuxc\AppData\Roaming\Typora\typora-user-images\1561615023920.png)
+   ![1561615023920](.\image\1561615023920.png)
 
 6. 发布LUIS应用。点击“发布”按钮，弹出发布页面，环境选择“Production”，点击“发布”按钮完成发布。
 
@@ -116,7 +116,7 @@
 
    另外，可以点击分配资源来选择不同的LUIS资源。
 
-   ![1561619921151](C:\Users\zhuxc\AppData\Roaming\Typora\typora-user-images\1561619921151.png)
+   ![1561619921151](.\image\1561619921151.png)
 
 7. 创建C#项目。使用Microsoft Visual Studio创建一个新项目。
 
