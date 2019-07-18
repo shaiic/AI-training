@@ -23,7 +23,7 @@
 - 行动(Action)
 - 回报(G or Reward)
 
-![](..\Images\Basic RL.png)
+<img src="../Images/Basic RL.png">..\Images\Basic RL.png)
 
 ### 强化学习的几个关键概念
 
@@ -33,7 +33,7 @@
 
 ### 强化学习的历史与发展
 
-![](..\images\RL-history.png)
+<img src="../Images/RL-history.png">
 
 ### 几个强化学习的应用案例
 
@@ -47,7 +47,7 @@ $$
 𝑃(𝑠_{𝑡+1}|𝑠_1,…,𝑠_𝑡)=𝑃(𝑠_{𝑡+1}|𝑠_𝑡)
 $$
 
-![](..\images\Markov.png)
+<img src="../Images/Markov.png">
 
 ### 马尔可夫决策过程（MDP）
 
@@ -130,7 +130,7 @@ $$
 
 ### *总结：怎样选择合适的算法*
 
-![](..\images\Summary of Algorithm.png)
+<img src="../Images/summary of algorithm.png">
 
 
 
