@@ -130,7 +130,7 @@ $$
 
 ### *总结：怎样选择合适的算法*
 
-<img src="../Images/summary of algorithm.png">
+<img src="../Images/Summary of Algorithm.png">
 
 
 
