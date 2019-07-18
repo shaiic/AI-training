@@ -23,7 +23,7 @@
 - 行动(Action)
 - 回报(G or Reward)
 
-![1563409440761](C:\dev\AI-training\1.Notebooks\4.Lesson-Docs\images\Basic-Concept.png)
+![1563409440761](..\images\Basic-Concept.png)
 
 ### 强化学习的几个关键概念
 
@@ -33,7 +33,7 @@
 
 ### 强化学习的历史与发展
 
-![1563411658562](C:\dev\AI-training\1.Notebooks\4.Lesson-Docs\images\RL-history.png)
+![1563411658562](..\images\RL-history.png)
 
 ### 几个强化学习的应用案例
 
@@ -47,7 +47,7 @@ $$
 𝑃(𝑠_{𝑡+1}|𝑠_1,…,𝑠_𝑡)=𝑃(𝑠_{𝑡+1}|𝑠_𝑡)
 $$
 
-![1563412033683](C:\dev\AI-training\1.Notebooks\4.Lesson-Docs\images\Markov.png)
+![1563412033683](..\images\Markov.png)
 
 ### 马尔可夫决策过程（MDP）
 
@@ -130,7 +130,7 @@ $$
 
 ### *总结：怎样选择合适的算法*
 
-![1563424107457](C:\dev\AI-training\1.Notebooks\4.Lesson-Docs\images\Summary of Algorithm.png)
+![1563424107457](..\images\Summary of Algorithm.png)
 
 
 
