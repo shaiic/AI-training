@@ -23,7 +23,7 @@
 - 行动(Action)
 - 回报(G or Reward)
 
-<img src="../Images/Basic RL.png">..\Images\Basic RL.png)
+<img src="../Images/Basic RL.png">
 
 ### 强化学习的几个关键概念
 
