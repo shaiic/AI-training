@@ -78,7 +78,7 @@
 
 ##### Transformer的整体模型框架
 
-![Transformer](..\Images\Transformer.png)
+##### <img src = "..\Images\Transformer.png">
 
 ##### 采用RNN和Transformer的区别
 
