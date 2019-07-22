@@ -80,9 +80,6 @@
 
 ##### <img src = "..\Images\Transformer.png">
 
-![Transformer](..\Images\Transformer.png)
->>>>>>> upstream/master
-
 ##### 采用RNN和Transformer的区别
 
 ### 预训练模型
