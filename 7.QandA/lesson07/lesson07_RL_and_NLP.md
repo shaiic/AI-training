@@ -13,7 +13,7 @@
 
 **A:** Q-learning 算法通过构建和维护一个Q表，Q表中的每一项表示Q(s,a)，来找到一个最优策略，这个策略能够最大化从当前状态开始所有的后继行动的期望收益。请参考以下Q-learning的伪代码：
 
-<img src="../Images/Q-learning.png">
+<img src="../images/Q-learning.png">
 
  Q-learning最重要的部分在于对Q值的更新，从伪代码中我们可以看到，对于Q值的更新ΔQ是两部分的差值乘以系数α。
 
