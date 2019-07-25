@@ -107,7 +107,9 @@ sudo service jupyterhub start
 
 ​                f.         在 terminal 中为所有用户安装所需要的依赖包
 
-![New Terminal button under New menu](file:///C:/Users/hp/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+​        ![deployment1](./image/deployment1.png)
+
+
 
 ​                   g.        注意要加上sudo -E，才能为所有用户安装。
 
