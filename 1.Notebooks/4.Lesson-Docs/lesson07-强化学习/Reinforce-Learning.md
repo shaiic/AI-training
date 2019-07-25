@@ -116,10 +116,11 @@ $$
 
 ### *Policy-based Algorithms*
 
-- 策略梯度算法
-- 策略优化算法
+##### 策略梯度算法
 
-#### 如何利用样本数据计算梯度？
+如何找到策略优化方法
+
+如何利用样本数据计算梯度？
 
 - (Stochastic) Policy Gradient Theorem(1999)
 - Deterministic Policy Gradient Theorem(2014)

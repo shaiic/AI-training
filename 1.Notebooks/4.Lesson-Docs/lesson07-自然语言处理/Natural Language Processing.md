@@ -33,7 +33,7 @@
 3. Transformer引入自编码
 4. 预训练模型带来新的进步
    - ELMo(Embeddings from Language Models)
-   - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+   - BERT: Bidirectional Encoder Representations Training
 
 ### 三、目前面临的主要问题
 
@@ -72,19 +72,25 @@
 
 递归神经网络RNN(Recurrent Neural Network)
 
-在编解码中使用RNN和Attention
+##### 编解码中的RNN与Attention
 
-Transformer的应用
+​	Google: 《Attention is all you need》
 
-采用RNN和Transformer的区别
+##### Transformer的整体模型框架
+
+##### <img src = "..\Images\Transformer.png">
+
+##### 采用RNN和Transformer的区别
 
 ### 预训练模型
 
 什么是预训练？为什么预训练如此重要？
 
-如何应用GPT和BERT
+##### 如何应用GPT和BERT
 
-多语言BERT
+使用BERT的模型可以同时考虑一个词的两侧（左侧和右侧）上下文，而不是每次都是只考虑词的单侧（左侧或右侧）上下文。
+
+##### 多语言BERT
 
 
 
