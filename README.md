@@ -9,7 +9,3 @@ AI training phase 1 from May 24, 2019
 
 
 
-## 通知提醒
-
-若visual studio过期，请使用认知服务.cn账号登录！
-
