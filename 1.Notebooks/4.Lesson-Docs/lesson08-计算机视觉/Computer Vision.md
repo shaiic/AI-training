@@ -43,7 +43,7 @@
 
 图像分类，目标定位，目标识别，图像分割
 
-<img src ="..\images\image recognition.png">
+<img src ="..\Images\image recognition.png">
 
 
 
@@ -79,7 +79,7 @@
 
 在标准RoI pooling的常规bin partition中为每个bin添加了一个offset。
 
-<img src ="..\images\RoI Pooling.png">
+<img src ="..\Images\RoI Pooling.png">
 
 ### 可变形卷积网络V2
 
@@ -88,7 +88,7 @@
 3. 让Deformable Convolutor不仅学习offset，还能学习每个采样点的权重（modulation）
 4. 模拟R-CNN的feature（knowledge distillation）
 
-<img src ="..\images\R-CNN feature.jpg">
+<img src ="..\Images\R-CNN feature.jpg">
 
 ### 视频识别
 
@@ -98,13 +98,13 @@
 
 由于视频中相邻帧之间包含冗余信息，因此不需要在每一帧中提取feature map。微软提出了**DFF**(Deep Feature Flow)， 主要在少数关键帧中提取feature map，然后将这些feature map传播到其他非关键帧上。在牺牲少量精度的情况下，对检测器进行加速。
 
-<img src ="..\images\sparse feature propagation.jpg">
+<img src ="..\Images\sparse feature propagation.jpg">
 
 ##### 多帧特征聚合 (Multi-frame Feature Aggregation)
 
 第一次在视频目标检测领域引入时序特征聚集 FGFA(Flow-Guided Feature Aggregation)的概念，某些帧的深度特征会受到外观衰退的影响(如运动模糊，遮挡等)，但是可能通过将多个邻近帧进行聚合，提高特征的质量和检测准确率。
 
-<img src ="..\images\FGFA.jpg">
+<img src ="..\Images\FGFA.jpg">
 
 ##### Towards High Performance Video Object Detection (for Mobiles)
 
@@ -150,7 +150,7 @@
 - CNN 用于特征提取
 - 当前帧搜索做相似度匹配
 
-<img src ="..\images\SiamFC.png">
+<img src ="..\Images\SiamFC.png">
 
 - 最后得到一个响应图，图上最大值对应的点就是算法认为的目标中心所在位置。
 
@@ -158,7 +158,7 @@
 
 使用双重孪生网络进行视觉物体跟踪，融合语义和外观信息的SA(Semantic Appearance)-Siam框架。
 
-<img src ="..\images\sa-siam.png">
+<img src ="..\Images\sa-siam.png">
 
 5，Siam-BM(Better Match)
 
@@ -199,7 +199,7 @@
 
 识别模式和生成模式
 
-<img src ="..\images\GAN.png">
+<img src ="..\Images\GAN.png">
 
 ### GAN是如何工作的
 
@@ -215,13 +215,13 @@
 5. 跨类别的图像生成，例如由照片生成油画，同一地点的四季交替等等
 6. 生成多种属性图像
 
-<img src ="..\images\GAN face.jpg">
+<img src ="..\Images\GAN face.jpg">
 
 ### 保留身份信息的人脸合成技术
 
 希望解决开放数据集中人脸生成的问题，合成保留图中人脸原始特点的图像。针对输入的人脸图片，我们希望从中得到身份(Identity)和属性(Attributes)信息。基于GAN的框架实现人脸生成。
 
-<img src ="..\images\GAN-attributes.png">
+<img src ="..\Images\GAN-attributes.png">
 
 ### GAN新应用的探索
 
