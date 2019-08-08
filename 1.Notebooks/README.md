@@ -10,7 +10,8 @@ This directory for each lesson's notebook.
 | lesson05 | 深度学习（二）<br>[讲义-基础知识](4.Lesson-Docs/lesson05-深度学习.02-基础知识)<br>[讲义-线性回归](4.Lesson-Docs/lesson05-深度学习.03-线性回归) | 1.[cs231n线性分类](<http://cs231n.github.io/linear-classify/>) | 1.[反向传播笔记](<http://blog.a-stack.com/2018/04/20/Backpropagation-in-Neural-Network/>)<br>2. [cs231n-优化](<http://cs231n.github.io/optimization-1/>)<br>3.[向量微分求解笔记](<http://cs231n.stanford.edu/handouts/derivatives.pdf>) | /          |
 | lesson06 | 深度学习（三）<br>[讲义-线性分类](4.Lesson-Docs/lesson06-深度学习.04-线性分类)<br>[讲义-非线性回归](4.Lesson-Docs/lesson06-深度学习.05-非线性回归)                                                              | /                                                            | 1.[cs231n-神经网络1](http://cs231n.github.io/neural-networks-1/)<br>2.[cs231n-神经网络2](http://cs231n.github.io/neural-networks-2/)<br>3.[cs231n-神经网络3](http://cs231n.github.io/neural-networks-3/) | /          |
 | lesson07 | 强化学习专题 <br>[讲义](4.Lesson-Docs/lesson07-强化学习)<br>自然语言处理专题<br>[讲义](4.Lesson-Docs/lesson07-自然语言处理)| | | /   |
-| lesson08 | 计算机视觉专题 <br>[讲义](4.Lesson-Docs/lesson08-计算机视觉)<br>深度学习（四）<br>[讲义-自构建](4.Lesson-Docs/lesson08-深度学习。06-自构建)| | | /    |
+| lesson08 | 计算机视觉专题 <br>[讲义](4.Lesson-Docs/lesson08-计算机视觉)<br>深度学习（四）<br>[讲义-自构建](4.Lesson-Docs/lesson08-深度学习.06-自构建)| | | /    |
+| lesson09 | 深度学习（五）<br>[讲义-非线性分类](4.Lesson-Docs/lesson09-深度学习.07-非线性分类)<br>[讲义-模型推理](4.Lesson-Docs/lesson09-深度学习.08-模型推理)<br>[讲义-深度神经网络](4.Lesson-Docs/lesson09-深度学习.09-深度神经网络)| | | /    |
 
 
 
