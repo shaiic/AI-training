@@ -109,7 +109,7 @@ private void ImgBear_ImageFailed(object sender, ExceptionRoutedEventArgs e)
 }
 ```
 
-###处理模型的输入
+## 处理模型的输入
 
 打开自动生成的模型封装文件`BearModel.cs`可以看到需要的输入如下：
 
