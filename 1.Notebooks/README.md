@@ -12,7 +12,7 @@ This directory for each lesson's notebook.
 | lesson07 | 强化学习专题 <br>[讲义](4.Lesson-Docs/lesson07-强化学习)<br>自然语言处理专题<br>[讲义](4.Lesson-Docs/lesson07-自然语言处理)| / | / | /   |
 | lesson08 | 计算机视觉专题 <br>[讲义](4.Lesson-Docs/lesson08-计算机视觉)<br>深度学习（四）<br>[讲义-自构建](4.Lesson-Docs/lesson08-深度学习.06-自构建)| / | / | /    |
 | lesson09 | 深度学习（五）<br>[讲义-非线性分类](4.Lesson-Docs/lesson09-深度学习.07-非线性分类)<br>[讲义-模型推理](4.Lesson-Docs/lesson09-深度学习.08-模型推理)<br>[讲义-深度神经网络](4.Lesson-Docs/lesson09-深度学习.09-深度神经网络)| / |1.[一个完整的网络构建流程](<http://cs231n.github.io/neural-networks-case-study/>) | / |
-
+| lesson10 | 自动机器学习<br>[讲义](4.Lesson-Docs/lesson10-自动机器学习)| / |  | / |
 
 
 ### 目录结构
